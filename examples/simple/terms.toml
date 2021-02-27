@@ -1,0 +1,19 @@
+["route not found"]
+en = 'route not found'
+ku = 'route booni nie'
+ar = 'al route la moujood'
+
+[unauthorized]
+en = 'unauthorized'
+ku = 'daxl naboo'
+ar = 'unauthorized'
+
+["%v shouldn't be more than %v"]
+en = "%v shouldn't be more than %v"
+ku = "%v nabe la %v ziatr be"
+ar = "%v shouldn't be more than %v"
+
+[age]
+en = "Age"
+ku = "taman"
+ar = "omr"

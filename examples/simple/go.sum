@@ -1,0 +1,4 @@
+github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
+github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/syronz/dict v0.0.0-20210226182550-ec245964d5a1 h1:dA+ZcpSj4N1Lnz7XSDwGuteKwhC1UmrNkM9fCLhT67A=
+github.com/syronz/dict v0.0.0-20210226182550-ec245964d5a1/go.mod h1:fP2KGduN2teXA4Xf364JeK/3KGSwhpQiaUhIEYplTDs=
