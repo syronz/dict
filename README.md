@@ -7,7 +7,7 @@ Dict is a Go package for translating terms
 1. By running below go command you can install it, if you use 'go mod' you can skip this step
 
 ```sh
-  go get github.com/syronz/dict
+go get github.com/syronz/dict
 ```
 
 2. Import it in your code:
@@ -17,7 +17,7 @@ import "github.com/syronz/dict"
 ```
 
 ## Terms
-dict support JSON and TOML, we recommend toml because it prevent duplication.
+Dict support JSON and TOML, we recommend toml because it prevent duplication.
 In version 1.1 this package just support English, Kurdish and Arabic. The style of terms.toml should be like below
 
 terms.toml
@@ -45,6 +45,8 @@ dict.Init("./terms.toml", true)
 ```
 
 ## Translation
+
+### Simple term
 For tranlate simple sentence/word without params it be like below
 
 ```go
@@ -57,6 +59,7 @@ Output:
 route not found:  route booni nie
 ```
 
+### Terms with param
 For translate sentences with params, dynamic terms. you can pass arbitrary params as arguments
 In case you want translate params should cast them as `dict.R`
 
@@ -71,7 +74,7 @@ Output:
 %v shouldn't be more than %v:  taman nabe la 18 ziatr be
 ```
 
-## Not exist terms inside the terms.toml
+### Not exist terms
 If the word not exist inside the TOML or JSON file, around the output '!!!' would be added. For example
 
 ```go
